@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi ! i'm Felipe</title>
+    <link rel="icon" type="img/png" href="./assets/img/loguito.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/2f6e7b21cb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="logo-container">
+                <img src="./assets/img/logo.png" class="logo">
+            </div>
+            
+            <ul id="sidemenu" class="menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            
+        </nav>
+    </header>
+    <div class="scrol">
+
+    </div>
+    <div id="header">
+        <div class="container">
+            <div class="header-text">
+                <span class="text first-text">Hi, I'm </span>
+                <span class="text sec-text">Felipe Cuervo</span>
+            </div>
+        </div>
+        
+    </div>
+<!-- ------------------------------------------------------ABOUT------------------------------------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./assets/img/user.jpeg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>My name is Felipe Cuervo, and I am a young programmer. At the age of 20, I am passionately seeking new challenges that will elevate my skills and experience as a frontend developer. I am dedicated to creating captivating and user-friendly web interfaces, and I thrive on staying up to date with the latest web technologies to deliver exceptional user experiences. I am excited to collaborate with others in the ever-evolving world of web development and bring innovative ideas to life</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Design</span><br>Design websites and interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Desktop python apps with interfaces</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - 2023</span><br>Project Manager on Pilgrims</li>
+                        <li><span>2023 - Current</span><br>Freelancer / Unemployed</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2016 - 2022</span><br>Programmer Technician on Institute</li>
+                        <li><span>2023 - Current</span><br>FrontEnd Development</li>
+                        <li><span>2023 - Currrent</span><br>Full Stack Development</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- -------------------------------------------------------services---------------------------------------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-lis">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designer</h2>
+                    <p>Ready to take your online presence to the next level? Look no further! As a seasoned web designer, I offer a personalized and creative approach to crafting beautiful and effective websites. Whether it's a brand new project or a revamp of your existing site, I'll work closely with you to make your online vision a reality. Let's build an exceptional online experience together</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Web Developer</h2>
+                    <p>Hello there! I'm a skilled web developer with a passion for turning ideas into functional and eye-catching websites. Whether you're an entrepreneur, a small business, or an individual looking to establish an online presence, I've got you covered. From creating responsive designs to implementing complex functionalities, I'm here to bring your web projects to life. Let's collaborate and make your digital vision a reality!</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Developer</h2>
+                    <p>Hello there! I'm a freelance app developer, and I'm passionate about turning your app ideas into reality. Whether you have a groundbreaking concept or need to enhance an existing app, I've got the skills and experience to make it happen. From user-friendly interfaces to powerful functionality, I'm here to create mobile applications that meet your specific needs. Let's collaborate to bring your app vision to life and make it a success in the digital world.</p>
+                    <a href="#contact">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- -------------------------------------------------------portfolio---------------------------------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets/img/work-1.png">
+                <div class="layer">
+                    <h3>Perfumes Web</h3>
+                    <p> Welcome to Dore Decants – Explore our curated collection of designer fragrances. With a sleek design powered by CSS, HTML, and JavaScript, find your perfect scent effortlessly. Discover luxury, elegance, and the essence of style in every bottle.
+                    </p>
+                    <a href="https://doredecants.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/img/work-2.png">
+                <div class="layer">
+                    <h3>Vapes Web</h3>
+                    <p>Welcome to Vapes Nz – Explore our curated collection of premium vapes. With a sleek design powered by CSS, HTML, and JavaScript, find your perfect device effortlessly. Discover quality, innovation, and the essence of vaping in every product.
+                    </p>
+                    <a href="https://vapesnz.netlify.app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/img/work-3.png">
+                <div class="layer">
+                    <h3>Bakery Page</h3>
+                    <p>
+                        Welcome to Escondrijo – Discover our selection of freshly baked goods. With a warm and inviting design crafted using CSS, HTML, and JavaScript, find your favorite treats effortlessly. Experience the joy of quality, tradition, and flavor in every bite.
+                    </p>
+                    <a href="https://escondrijo.site/web/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------------------------------------------------contactme---------------------------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> felicuervo5@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 3541646240</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/felicuerv/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/felipe-cuervo-864299220/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/felicuerv"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="./assets/pdf/RESUME FELIPE CUERVO.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Felipe. Made by Felipe Cuervo</p>
+    </div>
+</div>
+
+
+<script src="menu.js"></script>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    
+    }
+
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx7huO0-wVxqnvhXDJEP-1E-BEuqh3AKlSxK5MVhcKloYK1t7UnQDNk5Fp-7yFvgi6f/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent succesfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+    })
+</script>
+
+<script>
+    const text = document.querySelector(".sec-text");
+
+    const textLoad = () => {
+        text.classList.add("fade-out");
+        setTimeout(()=>{
+            text.textContent = "Felipe Cuervo";
+            text.classList.remove("fade-out");
+        }, 0);
+        text.classList.add("fade-out");
+        setTimeout(()=>{
+            text.textContent = "Frontend Dev";
+            text.classList.remove("fade-out");
+        }, 4000);
+        text.classList.add("fade-out");
+        setTimeout(()=>{
+            text.textContent = "Web Designer";
+            text.classList.remove("fade-out");
+        }, 8000);
+    }
+
+    textLoad();
+    setInterval(textLoad, 12000);
+</script>
+</body>
+</html>
